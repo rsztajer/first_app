@@ -41,6 +41,9 @@ end
 gem 'execjs'
 
 gem 'therubyracer'
+
+#Rails Integration Gems
+gem 'rails_12factor'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
