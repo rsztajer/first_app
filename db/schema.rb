@@ -11,11 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130728182627) do
+ActiveRecord::Schema.define(version: 20130817090935) do
 
   create_table "microposts", force: true do |t|
     t.string   "content"
-    t.string   "user"
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -24,6 +23,7 @@ ActiveRecord::Schema.define(version: 20130728182627) do
   create_table "users", force: true do |t|
     t.string   "name"
     t.string   "email"
+    t.string   "sting"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
